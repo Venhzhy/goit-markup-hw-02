@@ -40,10 +40,7 @@ address {
     color: #2e2f42;
 }
 
-.header-navigation-menu:hover,
-.header-navigation-menu:focus {
-    color: #404bbf;
-}
+
 
 .address {
     font-size: 16px;
@@ -60,11 +57,13 @@ address {
     color: #434455;
 }
 
-.address-email:hover {
+.address-email:hover,
+.address-email:focus {
     color: #404bbf;
 }
 
-.address-number:hover {
+.address-number:hover,
+.address-number:focus {
     color: #404bbf;
 }
 
