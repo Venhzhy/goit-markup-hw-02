@@ -1,6 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
-    color: #FFFFFF;
+    background-color: #FFFFFF;
+    color: #434455
 }
 
 /* header */
@@ -21,7 +22,7 @@ address {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
@@ -39,6 +40,33 @@ address {
     color: #2e2f42;
 }
 
+.header-navigation-menu:hover {
+    color: #404bbf;
+}
+
+.address {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.address-email {
+    color: #434455;
+}
+
+.address-number {
+    color: #434455;
+}
+
+.address-email:hover {
+    color: #404bbf;
+}
+
+.address-number:hover {
+    color: #404bbf;
+}
+
 /* Main */
 
 .hero {
@@ -48,9 +76,10 @@ address {
 .hero-title {
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07143;
+    line-height: 1.07;
     letter-spacing: 0.02em;
-
+    text-align: center;
+    color: #FFFFFF;
 }
 
 .hero-btn {
@@ -60,6 +89,12 @@ address {
     letter-spacing: 0.04em;
     color: #fff;
     background-color: #4D5AE5;
+    cursor: pointer;
+}
+
+.hero-btn:hover, 
+.hero-btn:focus {
+    background-color: #404bbf;
 }
 
 .hero-list-title {
@@ -74,7 +109,7 @@ address {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2e2f42;
+    color: #434455;
 }
 
 .our-team {
@@ -87,6 +122,12 @@ address {
     line-height: 1.11;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.team-items {
+    background-color: #FFFFFF
 }
 
 .team-list-title {
@@ -101,7 +142,7 @@ address {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2e2f42;
+    color: #434455;
 }
 
 .portfolio-title {
@@ -110,6 +151,8 @@ address {
     line-height: 1.11;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    text-align: center;
+    text-transform: capitalize;
 }
 
 .portfolio-list-title {
@@ -124,7 +167,7 @@ address {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2e2f42;
+    color: #434455;
 }
 
 /* Footer */
@@ -133,7 +176,7 @@ address {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
@@ -144,7 +187,7 @@ address {
 }
 
 .Studio-footer {
-    color: #FFFFFF;
+    color: #f4f4fd;
 }
 
 .footer-text {
