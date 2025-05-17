@@ -40,10 +40,7 @@ address {
     color: #2e2f42;
 }
 
-.header-navigation-menu:hover {
-    color: #404bbf;
-}
-
+.header-navigation-menu:hover,
 .header-navigation-menu:focus {
     color: #404bbf;
 }
