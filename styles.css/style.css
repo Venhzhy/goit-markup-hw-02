@@ -40,7 +40,8 @@ address {
     color: #2e2f42;
 }
 
-.header-navigation-menu:hover {
+.header-navigation-menu:hover,
+.header-navigation-menu:focus {
     color: #404bbf;
 }
 
@@ -186,7 +187,7 @@ address {
     background: #2e2f42;
 }
 
-.Studio-footer {
+.studio-footer {
     color: #f4f4fd;
 }
 
