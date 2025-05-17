@@ -42,7 +42,7 @@ address {
 
 .header-navigation-menu:hover,
 .header-navigation-menu:focus {
-color: #404bbf;
+    color: #404bbf;
 }
 
 .address {
@@ -52,16 +52,12 @@ color: #404bbf;
     color: #434455;
 }
 
-.address-email {
+.information {
     color: #434455;
 }
 
-.address-number {
-    color: #434455;
-}
-
-.address-email:hover,
-.address-email:focus {
+.information:hover,
+.information:focus {
     color: #404bbf;
 }
 
